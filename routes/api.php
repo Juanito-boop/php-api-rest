@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductoController;
 
 Route::get('/producto', 'ProductoController@index');
 Route::get('/producto/{id}', 'ProductoController@show');
